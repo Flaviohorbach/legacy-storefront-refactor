@@ -2,7 +2,7 @@
 
 A real open-source e-commerce theme from the Bootstrap 3 + jQuery era, [Aviato by Themefisher](https://github.com/themefisher/aviato-bootstrap), rebuilt with React 19, TypeScript and Vite, with a coding agent, and **measured with Lighthouse before and after**.
 
-**Live demo:** _coming soon_
+**Live demo: [flaviohorbach.github.io/legacy-storefront-refactor](https://flaviohorbach.github.io/legacy-storefront-refactor/)**
 
 The rebuild is not a reskin. The legacy cart and checkout were static HTML; this one has a working cart (persisted, synced across tabs), checkout validation, real filtering and sorting, accessible markup, and pages prerendered to static HTML.
 
