@@ -1,0 +1,9 @@
+node_modules
+dist
+legacy
+reports/raw
+test-results
+playwright-report
+.env*
+dist-ssr
+*.tsbuildinfo

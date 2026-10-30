@@ -1,0 +1,71 @@
+{
+  "measuredAt": "2026-10-30T14:40:21.075Z",
+  "runs": 3,
+  "pages": {
+    "home": {
+      "performance": 70,
+      "accessibility": 87,
+      "bestPractices": 96,
+      "seo": 100,
+      "lcp": 6870.094724999997,
+      "fcp": 1922.6733499999998,
+      "tbt": 163.5,
+      "cls": 0,
+      "si": 4899.537634226266,
+      "requests": 47,
+      "transferKB": 1057
+    },
+    "shop": {
+      "performance": 83,
+      "accessibility": 82,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcp": 4537.691975,
+      "fcp": 1902.15545,
+      "tbt": 48.5,
+      "cls": 0.00006496171741810461,
+      "si": 2455.9316920322035,
+      "requests": 38,
+      "transferKB": 547
+    },
+    "product": {
+      "performance": 87,
+      "accessibility": 77,
+      "bestPractices": 96,
+      "seo": 100,
+      "lcp": 3917.3449499999997,
+      "fcp": 1893.0887500000003,
+      "tbt": 6.5,
+      "cls": 0.0003096969490719594,
+      "si": 1897.1743000000001,
+      "requests": 42,
+      "transferKB": 838
+    },
+    "cart": {
+      "performance": 88,
+      "accessibility": 84,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcp": 3685.526350000001,
+      "fcp": 1887.7640500000002,
+      "tbt": 24,
+      "cls": 0.0005502158427311722,
+      "si": 2429.595928212929,
+      "requests": 29,
+      "transferKB": 384
+    },
+    "checkout": {
+      "performance": 93,
+      "accessibility": 73,
+      "bestPractices": 100,
+      "seo": 91,
+      "lcp": 3011.51505,
+      "fcp": 1885.2752500000001,
+      "tbt": 8,
+      "cls": 0.0001442306970446322,
+      "si": 1885.2752500000001,
+      "requests": 29,
+      "transferKB": 383
+    }
+  }
+}

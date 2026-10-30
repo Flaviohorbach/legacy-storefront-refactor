@@ -1,0 +1,42 @@
+@import "@fontsource/poppins/latin-300.css";
+@import "@fontsource/poppins/latin-400.css";
+@import "@fontsource/poppins/latin-500.css";
+@import "@fontsource/playfair-display/latin-400.css";
+@import "tailwindcss";
+
+/* The Aviato look, kept: black and white, Poppins for text, a serif for display.
+   The legacy CSS asked for "Playfair Display" but never loaded it; now it is. */
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", ui-serif, Georgia, serif;
+  --color-ink: #111111;
+  --color-muted: #595959;
+  --color-line: #e6e6e6;
+  --color-paper: #ffffff;
+  --color-wash: #f6f6f6;
+  --color-sale: #b42318;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper font-sans font-light text-ink antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ink;
+  }
+}
+
+@utility eyebrow {
+  @apply text-xs font-medium tracking-[0.2em] uppercase;
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 border border-ink bg-ink px-6 py-3 text-xs font-medium tracking-[0.2em] text-paper uppercase transition-colors hover:bg-paper hover:text-ink disabled:cursor-not-allowed disabled:opacity-40;
+}
+
+@utility btn-outline {
+  @apply inline-flex items-center justify-center gap-2 border border-ink bg-paper px-6 py-3 text-xs font-medium tracking-[0.2em] text-ink uppercase transition-colors hover:bg-ink hover:text-paper;
+}
